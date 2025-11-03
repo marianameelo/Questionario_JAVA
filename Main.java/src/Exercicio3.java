@@ -7,16 +7,16 @@ public class Exercicio3 {
 
         System.out.println("-------- ARMAZENAMENTO DO HISTÓRICO DE VENDAS--------");
 
-        double maior = Integer.MIN_VALUE;
+        double bigger = Integer.MIN_VALUE;
 
         for (int i = 0; i < 5; i++) {
             System.out.println("Digite o valor da sua venda: ");
-            double valor = scanner.nextDouble();
-            if (valor > maior) {
-                maior =  valor;
+            double value = scanner.nextDouble();
+            if (value > bigger) {
+                bigger =  value;
             }
         }
-        System.out.println("O maior valor é: " + maior);
+        System.out.println("O maior valor é: " + bigger);
 
         scanner.close();
     }
