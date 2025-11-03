@@ -1,5 +1,5 @@
 public class Livro {
-    String titulo;
-    String autor;
-    int ano;
+    String title;
+    String author;
+    int year;
 }
