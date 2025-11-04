@@ -26,7 +26,7 @@ public class Exercicio7 {
         System.out.println("____________________________________");
 
         int stockvalue = produto1.quantity + produto2.quantity + produto3.quantity;
-
+        
         System.out.println("          VALOR TOTAL DO ESTOQUE");
         System.out.println(stockvalue);
     }
