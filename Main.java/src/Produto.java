@@ -1,6 +1,6 @@
 public class Produto {
-    String descricao;
-    int quantidade;
-    double valor;
+    String description;
+    int quantity;
+    double value;
     
 }
